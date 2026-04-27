@@ -1044,7 +1044,7 @@ export default function QuranTranslationLandingPage() {
                   <a
                     key={item.href}
                     href={item.href}
-                    className="rounded-full border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.72)_0%,rgba(24,18,50,0.62)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-2 text-sm font-medium text-white/85 shadow-[0_8px_18px_rgba(0,0,0,0.16)] transition hover:border-[#D6B25E]/35 hover:bg-[#D6B25E]/10 hover:text-[#F8F3E7]"
+                    className="rounded-full border border-[#D6B25E]/18 bg-[#070816] px-4 py-2 text-sm font-medium text-white/85 shadow-[0_8px_18px_rgba(0,0,0,0.16)] transition hover:border-[#D6B25E]/35 hover:bg-[#0B1022] hover:text-[#F8F3E7]"
                   >
                     {item.label}
                   </a>
