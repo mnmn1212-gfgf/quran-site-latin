@@ -1002,17 +1002,26 @@ export default function QuranTranslationLandingPage() {
         dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(214,178,94,0.14),transparent_28%),radial-gradient(circle_at_82%_18%,rgba(55,198,163,0.16),transparent_24%),radial-gradient(circle_at_18%_82%,rgba(91,63,164,0.30),transparent_28%),linear-gradient(180deg,#030712_0%,#0B1022_42%,#070816_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(214,178,94,0.22),transparent_28%),radial-gradient(circle_at_82%_14%,rgba(55,198,163,0.22),transparent_26%),radial-gradient(circle_at_18%_82%,rgba(91,63,164,0.42),transparent_32%),radial-gradient(circle_at_78%_78%,rgba(8,73,63,0.42),transparent_34%),linear-gradient(135deg,#050712_0%,#181232_34%,#08493F_68%,#070816_100%)]" />
 
         {!isMobile && (
           <>
             <motion.div
-              className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-[#D6B25E]/12 blur-3xl"
+              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(214,178,94,0.22)_0%,rgba(55,198,163,0.10)_42%,transparent_70%)] blur-3xl"
               animate={pulseGlow}
             />
-            <div className="absolute inset-0 opacity-[0.06]">
-              <div className="h-full w-full bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:44px_44px]" />
+            <motion.div
+              className="absolute top-1/3 -left-32 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(91,63,164,0.28)_0%,rgba(8,73,63,0.12)_50%,transparent_72%)] blur-3xl"
+              animate={pulseGlow}
+            />
+            <motion.div
+              className="absolute bottom-0 -right-28 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(8,73,63,0.30)_0%,rgba(214,178,94,0.10)_45%,transparent_72%)] blur-3xl"
+              animate={pulseGlow}
+            />
+            <div className="absolute inset-0 opacity-[0.07]">
+              <div className="h-full w-full bg-[linear-gradient(rgba(214,178,94,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(55,198,163,0.07)_1px,transparent_1px)] bg-[size:46px_46px]" />
             </div>
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,rgba(5,7,18,0.18)_62%,rgba(5,7,18,0.72)_100%)]" />
           </>
         )}
 
