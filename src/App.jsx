@@ -39,7 +39,7 @@ const ACCENT = "#D6B25E";
 const CTA_DARK = "#070816";
 
 const OUTER_GRADIENT =
-  "bg-[linear-gradient(135deg,rgba(5,7,18,0.98)_0%,rgba(24,18,50,0.96)_34%,rgba(8,73,63,0.92)_68%,rgba(214,178,94,0.22)_100%)]";
+  "bg-[linear-gradient(135deg,rgba(5,7,18,0.99)_0%,rgba(16,24,56,0.98)_26%,rgba(27,59,111,0.96)_52%,rgba(8,73,63,0.94)_78%,rgba(15,124,105,0.90)_100%)]";
 const INNER_GRADIENT = OUTER_GRADIENT;
 
 const fadeUp = {
@@ -1002,12 +1002,12 @@ export default function QuranTranslationLandingPage() {
         dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(214,178,94,0.22),transparent_28%),radial-gradient(circle_at_82%_14%,rgba(55,198,163,0.22),transparent_26%),radial-gradient(circle_at_18%_82%,rgba(91,63,164,0.42),transparent_32%),radial-gradient(circle_at_78%_78%,rgba(8,73,63,0.42),transparent_34%),linear-gradient(135deg,#050712_0%,#181232_34%,#08493F_68%,#070816_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(27,59,111,0.24),transparent_28%),radial-gradient(circle_at_82%_14%,rgba(15,124,105,0.20),transparent_26%),radial-gradient(circle_at_18%_82%,rgba(91,63,164,0.34),transparent_32%),radial-gradient(circle_at_78%_78%,rgba(8,73,63,0.34),transparent_34%),linear-gradient(135deg,#050712_0%,#101838_26%,#1B3B6F_52%,#08493F_78%,#070816_100%)]" />
 
         {!isMobile && (
           <>
             <motion.div
-              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(214,178,94,0.22)_0%,rgba(55,198,163,0.10)_42%,transparent_70%)] blur-3xl"
+              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(27,59,111,0.24)_0%,rgba(15,124,105,0.12)_42%,transparent_70%)] blur-3xl"
               animate={pulseGlow}
             />
             <motion.div
