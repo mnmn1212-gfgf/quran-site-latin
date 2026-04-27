@@ -1666,7 +1666,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.8rem] border border-[#D6B25E]/15 p-4 text-center sm:p-5 flex h-full flex-col items-center justify-center ${INNER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D6B25E]/20 bg-[linear-gradient(135deg,rgba(214,178,94,0.14)_0%,rgba(255,255,255,0.08)_100%)] shadow-[0_0_24px_rgba(214,178,94,0.12)] backdrop-blur-md">
                       <MessageCircle
@@ -1682,7 +1682,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="w-full space-y-4 text-white/72 flex flex-col items-center">
                     <a
                       href="mailto:snachannel159@gmail.com"
-                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[rgba(5,7,18,0.50)] px-4 py-3 text-sm text-center transition hover:bg-white/10 sm:text-base"
+                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.82)_0%,rgba(24,18,50,0.74)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-3 text-sm text-center transition hover:border-[#D6B25E]/30 hover:bg-white/10 sm:text-base"
                     >
                       <Mail
                         className="h-5 w-5 shrink-0"
@@ -1691,7 +1691,7 @@ export default function QuranTranslationLandingPage() {
                       <span className="text-center">snachannel159@gmail.com</span>
                     </a>
 
-                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[rgba(5,7,18,0.50)] px-4 py-3 text-sm text-center sm:text-base">
+                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.82)_0%,rgba(24,18,50,0.74)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-3 text-sm text-center sm:text-base">
                       <MapPin
                         className="h-5 w-5 shrink-0"
                         style={{ color: ACCENT }}
@@ -1700,7 +1700,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="mt-5 w-full rounded-[1.4rem] border border-white/10 bg-[rgba(5,7,18,0.45)] p-4 text-center">
+                  <div className="mt-5 w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.84)_0%,rgba(24,18,50,0.72)_52%,rgba(8,73,63,0.30)_100%)] p-4 text-center">
                     <a
                       href="https://www.facebook.com/profile.php?id=61571138693031"
                       target="_blank"
@@ -1717,7 +1717,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.8rem] border border-white/10 bg-[linear-gradient(145deg,rgba(255,255,255,0.08),rgba(255,255,255,0.04))] p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.8rem] border border-[#D6B25E]/15 p-4 backdrop-blur-md sm:p-5 text-center flex h-full flex-col items-center justify-center ${INNER_GRADIENT}`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D6B25E]/20 bg-[linear-gradient(135deg,rgba(214,178,94,0.14)_0%,rgba(255,255,255,0.08)_100%)] shadow-[0_0_24px_rgba(214,178,94,0.12)] backdrop-blur-md">
                       <Link2
@@ -1730,7 +1730,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="w-full rounded-[1.4rem] border border-white/10 bg-[rgba(5,7,18,0.45)] p-4 text-center">
+                  <div className="w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.84)_0%,rgba(24,18,50,0.72)_52%,rgba(8,73,63,0.30)_100%)] p-4 text-center">
                     <p className="mb-4 text-sm leading-7 text-white/65">
                       Applicationem depone et contentum Quranicum
                       facile per suggesta officialia sequi incipe.
@@ -1741,7 +1741,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://play.google.com/store/apps/details?id=com.sana_all&pcampaignid=web_share"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.62)_0%,rgba(24,18,50,0.62)_60%,rgba(8,73,63,0.22)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
                       >
                         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:justify-center">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D6B25E]/10 text-white">
@@ -1757,7 +1757,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://apps.apple.com/us/app/sana-tv-%D8%B3%D9%86%D8%A7/id6742054715"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-white/10 bg-white/5 p-4 transition hover:-translate-y-0.5 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.62)_0%,rgba(24,18,50,0.62)_60%,rgba(8,73,63,0.22)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
                       >
                         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:justify-center">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D6B25E]/10 text-white">
@@ -1770,7 +1770,7 @@ export default function QuranTranslationLandingPage() {
                       </a>
                     </div>
 
-                    <div className="mt-5 rounded-[1.4rem] border border-white/10 bg-[rgba(5,7,18,0.60)] p-4 text-center">
+                    <div className="mt-5 rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.88)_0%,rgba(24,18,50,0.76)_52%,rgba(8,73,63,0.32)_100%)] p-4 text-center">
                       <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-white/65">
                         <span className="flex items-center gap-1.5">
                           <span style={{ color: ACCENT }}>★</span> Aestimatio 4.9
