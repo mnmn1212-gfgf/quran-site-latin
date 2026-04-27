@@ -1002,26 +1002,26 @@ export default function QuranTranslationLandingPage() {
         dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(214,178,94,0.22),transparent_28%),radial-gradient(circle_at_82%_14%,rgba(55,198,163,0.22),transparent_26%),radial-gradient(circle_at_18%_82%,rgba(91,63,164,0.42),transparent_32%),radial-gradient(circle_at_78%_78%,rgba(8,73,63,0.42),transparent_34%),linear-gradient(135deg,#050712_0%,#181232_34%,#08493F_68%,#070816_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_12%_14%,rgba(7,14,23,0.95),transparent_30%),radial-gradient(circle_at_82%_18%,rgba(21,42,61,0.72),transparent_34%),radial-gradient(circle_at_18%_84%,rgba(7,60,55,0.68),transparent_36%),radial-gradient(circle_at_78%_78%,rgba(28,39,56,0.74),transparent_38%),linear-gradient(135deg,#070E17_0%,#152A3D_36%,#073C37_68%,#1C2738_100%)]" />
 
         {!isMobile && (
           <>
             <motion.div
-              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(214,178,94,0.22)_0%,rgba(55,198,163,0.10)_42%,transparent_70%)] blur-3xl"
+              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(21,42,61,0.36)_0%,rgba(7,60,55,0.18)_42%,transparent_70%)] blur-3xl"
               animate={pulseGlow}
             />
             <motion.div
-              className="absolute top-1/3 -left-32 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(91,63,164,0.28)_0%,rgba(8,73,63,0.12)_50%,transparent_72%)] blur-3xl"
+              className="absolute top-1/3 -left-32 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(7,60,55,0.34)_0%,rgba(21,42,61,0.18)_50%,transparent_72%)] blur-3xl"
               animate={pulseGlow}
             />
             <motion.div
-              className="absolute bottom-0 -right-28 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(8,73,63,0.30)_0%,rgba(214,178,94,0.10)_45%,transparent_72%)] blur-3xl"
+              className="absolute bottom-0 -right-28 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(7,60,55,0.34)_0%,rgba(28,39,56,0.20)_45%,transparent_72%)] blur-3xl"
               animate={pulseGlow}
             />
             <div className="absolute inset-0 opacity-[0.07]">
-              <div className="h-full w-full bg-[linear-gradient(rgba(214,178,94,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(55,198,163,0.07)_1px,transparent_1px)] bg-[size:46px_46px]" />
+              <div className="h-full w-full bg-[linear-gradient(rgba(21,42,61,0.10)_1px,transparent_1px),linear-gradient(90deg,rgba(7,60,55,0.09)_1px,transparent_1px)] bg-[size:46px_46px]" />
             </div>
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,rgba(5,7,18,0.18)_62%,rgba(5,7,18,0.72)_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,rgba(7,14,23,0.18)_62%,rgba(7,14,23,0.74)_100%)]" />
           </>
         )}
 
