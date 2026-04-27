@@ -39,7 +39,7 @@ const ACCENT = "#D6B25E";
 const CTA_DARK = "#070816";
 
 const OUTER_GRADIENT =
-  "bg-[linear-gradient(135deg,rgba(5,7,18,0.98)_0%,rgba(24,18,50,0.96)_34%,rgba(8,73,63,0.92)_68%,rgba(214,178,94,0.22)_100%)]";
+  "bg-[linear-gradient(135deg,rgba(3,12,28,0.98)_0%,rgba(5,36,67,0.96)_34%,rgba(6,89,106,0.94)_68%,rgba(10,156,145,0.30)_100%)]";
 const INNER_GRADIENT = OUTER_GRADIENT;
 
 const fadeUp = {
@@ -1002,26 +1002,26 @@ export default function QuranTranslationLandingPage() {
         dir="ltr"
         className="relative min-h-screen overflow-hidden bg-transparent text-white"
       >
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_14%_16%,rgba(16,13,37,0.98),transparent_30%),radial-gradient(circle_at_86%_12%,rgba(45,24,91,0.42),transparent_28%),radial-gradient(circle_at_18%_84%,rgba(10,37,82,0.55),transparent_34%),radial-gradient(circle_at_78%_78%,rgba(5,12,38,0.72),transparent_36%),linear-gradient(135deg,#040718_0%,#100D25_30%,#162D5A_62%,#050816_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(14,165,233,0.22),transparent_28%),radial-gradient(circle_at_82%_14%,rgba(55,198,163,0.24),transparent_26%),radial-gradient(circle_at_18%_82%,rgba(8,126,164,0.40),transparent_32%),radial-gradient(circle_at_78%_78%,rgba(8,91,106,0.44),transparent_34%),linear-gradient(135deg,#030C1C_0%,#052443_34%,#06596A_68%,#031525_100%)]" />
 
         {!isMobile && (
           <>
             <motion.div
-              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(69,39,146,0.28)_0%,rgba(16,13,37,0.22)_42%,transparent_70%)] blur-3xl"
+              className="absolute -top-28 left-1/2 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-[radial-gradient(circle,rgba(14,165,233,0.22)_0%,rgba(55,198,163,0.14)_42%,transparent_70%)] blur-3xl"
               animate={pulseGlow}
             />
             <motion.div
-              className="absolute top-1/3 -left-32 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(22,45,90,0.34)_0%,rgba(16,13,37,0.22)_50%,transparent_72%)] blur-3xl"
+              className="absolute top-1/3 -left-32 h-[30rem] w-[30rem] rounded-full bg-[radial-gradient(circle,rgba(8,126,164,0.28)_0%,rgba(8,91,106,0.16)_50%,transparent_72%)] blur-3xl"
               animate={pulseGlow}
             />
             <motion.div
-              className="absolute bottom-0 -right-28 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(5,12,38,0.70)_0%,rgba(45,24,91,0.24)_45%,transparent_72%)] blur-3xl"
+              className="absolute bottom-0 -right-28 h-[32rem] w-[32rem] rounded-full bg-[radial-gradient(circle,rgba(8,91,106,0.34)_0%,rgba(14,165,233,0.12)_45%,transparent_72%)] blur-3xl"
               animate={pulseGlow}
             />
             <div className="absolute inset-0 opacity-[0.07]">
-              <div className="h-full w-full bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(100,120,255,0.05)_1px,transparent_1px)] bg-[size:46px_46px]" />
+              <div className="h-full w-full bg-[linear-gradient(rgba(14,165,233,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(55,198,163,0.08)_1px,transparent_1px)] bg-[size:46px_46px]" />
             </div>
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,rgba(4,7,24,0.18)_62%,rgba(4,7,24,0.78)_100%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_0%,rgba(5,7,18,0.18)_62%,rgba(5,7,18,0.72)_100%)]" />
           </>
         )}
 
@@ -1359,7 +1359,7 @@ export default function QuranTranslationLandingPage() {
               className={`relative overflow-hidden p-5 sm:p-6 md:p-10 ${gradientOuterCard}`}
             >
               {!isMobile && (
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(214,178,94,0.08),transparent_28%),radial-gradient(circle_at_80%_80%,rgba(214,178,94,0.06),transparent_32%)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(14,165,233,0.08),transparent_28%),radial-gradient(circle_at_80%_80%,rgba(55,198,163,0.07),transparent_32%)]" />
               )}
 
               <div className="relative z-10">
@@ -1666,7 +1666,7 @@ export default function QuranTranslationLandingPage() {
                       Sana... Nuntius ad Omnes Mundos
                     </div>
 
-                    <p className="mx-auto mt-4 max-w-xl rounded-[1.4rem] border border-[#D6B25E]/20 bg-[linear-gradient(135deg,rgba(5,7,18,0.74)_0%,rgba(24,18,50,0.68)_100%)] px-4 py-4 text-sm leading-7 text-white/90 sm:px-5 sm:text-base sm:leading-8">
+                    <p className="mx-auto mt-4 max-w-xl rounded-[1.4rem] border border-[#D6B25E]/20 bg-[linear-gradient(135deg,rgba(3,12,28,0.74)_0%,rgba(5,36,67,0.68)_100%)] px-4 py-4 text-sm leading-7 text-white/90 sm:px-5 sm:text-base sm:leading-8">
                       Canales sonori et visivi pro translationibus significationum Qurani
                       in omnibus linguis globalibus, ut projectum waqf quod
                       pulchritudinem presentationis, accurationem significationis, et sinceritatem
@@ -1691,7 +1691,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="w-full space-y-4 text-white/72 flex flex-col items-center">
                     <a
                       href="mailto:snachannel159@gmail.com"
-                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.82)_0%,rgba(24,18,50,0.74)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-3 text-sm text-center transition hover:border-[#D6B25E]/30 hover:bg-white/10 sm:text-base"
+                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.82)_0%,rgba(5,36,67,0.74)_55%,rgba(8,91,106,0.30)_100%)] px-4 py-3 text-sm text-center transition hover:border-[#D6B25E]/30 hover:bg-white/10 sm:text-base"
                     >
                       <Mail
                         className="h-5 w-5 shrink-0"
@@ -1700,7 +1700,7 @@ export default function QuranTranslationLandingPage() {
                       <span className="text-center">snachannel159@gmail.com</span>
                     </a>
 
-                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.82)_0%,rgba(24,18,50,0.74)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-3 text-sm text-center sm:text-base">
+                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.82)_0%,rgba(5,36,67,0.74)_55%,rgba(8,91,106,0.30)_100%)] px-4 py-3 text-sm text-center sm:text-base">
                       <MapPin
                         className="h-5 w-5 shrink-0"
                         style={{ color: ACCENT }}
@@ -1709,7 +1709,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="mt-5 w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.84)_0%,rgba(24,18,50,0.72)_52%,rgba(8,73,63,0.30)_100%)] p-4 text-center">
+                  <div className="mt-5 w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.84)_0%,rgba(5,36,67,0.72)_52%,rgba(8,91,106,0.32)_100%)] p-4 text-center">
                     <a
                       href="https://www.facebook.com/profile.php?id=61571138693031"
                       target="_blank"
@@ -1739,7 +1739,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.84)_0%,rgba(24,18,50,0.72)_52%,rgba(8,73,63,0.30)_100%)] p-4 text-center">
+                  <div className="w-full rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.84)_0%,rgba(5,36,67,0.72)_52%,rgba(8,91,106,0.32)_100%)] p-4 text-center">
                     <p className="mb-4 text-sm leading-7 text-white/65">
                       Applicationem depone et contentum Quranicum
                       facile per suggesta officialia sequi incipe.
@@ -1750,7 +1750,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://play.google.com/store/apps/details?id=com.sana_all&pcampaignid=web_share"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.62)_0%,rgba(24,18,50,0.62)_60%,rgba(8,73,63,0.22)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.62)_0%,rgba(5,36,67,0.62)_60%,rgba(8,91,106,0.24)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
                       >
                         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:justify-center">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D6B25E]/10 text-white">
@@ -1766,7 +1766,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://apps.apple.com/us/app/sana-tv-%D8%B3%D9%86%D8%A7/id6742054715"
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.62)_0%,rgba(24,18,50,0.62)_60%,rgba(8,73,63,0.22)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
+                        className="group rounded-[1.3rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.62)_0%,rgba(5,36,67,0.62)_60%,rgba(8,91,106,0.24)_100%)] p-4 transition hover:-translate-y-0.5 hover:border-[#D6B25E]/30 hover:bg-white/10"
                       >
                         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row sm:justify-center">
                           <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-white/10 bg-[#D6B25E]/10 text-white">
@@ -1779,7 +1779,7 @@ export default function QuranTranslationLandingPage() {
                       </a>
                     </div>
 
-                    <div className="mt-5 rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.88)_0%,rgba(24,18,50,0.76)_52%,rgba(8,73,63,0.32)_100%)] p-4 text-center">
+                    <div className="mt-5 rounded-[1.4rem] border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(3,12,28,0.88)_0%,rgba(5,36,67,0.76)_52%,rgba(8,91,106,0.34)_100%)] p-4 text-center">
                       <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-white/65">
                         <span className="flex items-center gap-1.5">
                           <span style={{ color: ACCENT }}>★</span> Aestimatio 4.9
