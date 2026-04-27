@@ -60,7 +60,7 @@ const pulseGlow = {
 const containerClass =
   "relative z-10 mx-auto w-full max-w-[1680px] px-4 sm:px-6 lg:px-10 xl:px-14";
 const glass =
-  "border border-[#D6B25E]/15 bg-white/10 md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_45px_rgba(0,0,0,0.28)]";
+  `border border-[#D6B25E]/15 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_45px_rgba(0,0,0,0.30)]`;
 const softCard = `rounded-[2rem] border border-[#D6B25E]/15 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_45px_rgba(0,0,0,0.30)]`;
 const gradientOuterCard = `rounded-[2rem] border border-[#D6B25E]/15 ${OUTER_GRADIENT} md:backdrop-blur-xl backdrop-blur-sm shadow-[0_18px_45px_rgba(0,0,0,0.30)]`;
 
@@ -1044,7 +1044,7 @@ export default function QuranTranslationLandingPage() {
                   <a
                     key={item.href}
                     href={item.href}
-                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/85 transition hover:border-[#D6B25E]/30 hover:bg-white/10 hover:text-[#F8F3E7]"
+                    className="rounded-full border border-[#D6B25E]/15 bg-[linear-gradient(135deg,rgba(5,7,18,0.72)_0%,rgba(24,18,50,0.62)_55%,rgba(8,73,63,0.28)_100%)] px-4 py-2 text-sm font-medium text-white/85 shadow-[0_8px_18px_rgba(0,0,0,0.16)] transition hover:border-[#D6B25E]/35 hover:bg-[#D6B25E]/10 hover:text-[#F8F3E7]"
                   >
                     {item.label}
                   </a>
